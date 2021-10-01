@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  background-color: rgb(7, 7, 7);
+}
+/* body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+.hero {
+  background-color: green;
+  height: 100vh;
+  max-width: 100vw;
+  /* margin: 5rem; */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;  /* padding: 4rem; */
+}
+.square {
+  background-color: rgb(124, 124, 63);
+  height: 5rem;
+  width: 5rem;
+  margin: 2px;
+}
