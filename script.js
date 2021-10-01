@@ -7,8 +7,8 @@ for(let i = 0; i < SQUARES; i++) {
   square.classList.add('square')
 
   square.addEventListener('mouseover', () => setColor(square))
-  // square.addEventListener('mouseout', removeColor)
-
+  // square.addEventListener('mouseout', removeColor)// event bubbling
+  square.addEventListener('mouseout', () => removeColor(square))
 
 
   hero.appendChild(square)
@@ -20,6 +20,10 @@ const setColor = (element) => {
 
 
 
+}
+
+const removeColor = (element) => {
+  element.style.background = '#242323'
 }
 
 const getRandomColor = ()=> {
