@@ -41,9 +41,9 @@
 .square {
   z-index: -1;
   position: relative;
-  background-color: #060606;
-  height: 15rem;
-  width: 15rem;
+  background-color: #ebebeb;
+  height: 3rem;
+  width: 3rem;
   margin: 2px;
   transition: .5s ease;
 }
