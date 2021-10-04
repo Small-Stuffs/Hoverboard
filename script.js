@@ -1,5 +1,5 @@
 const hero = document.querySelector('.hero')
-const colors = ['#e74c3c', '#8e44ad', '#3498db', '#e67e22', '#2ecc71']
+const colors = ['#060606']
 const SQUARES = 500
 
 for(let i = 0; i < SQUARES; i++) {
@@ -23,7 +23,7 @@ const setColor = (element) => {
 }
 
 const removeColor = (element) => {
-  element.style.background = '#242323'
+  element.style.background = '#000000'
 }
 
 const getRandomColor = ()=> {
